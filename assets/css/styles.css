@@ -4,5 +4,40 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: ;
     
 }
+
+nav{
+    display: flex !important;
+    justify-content: space-around;
+    background-color: black;
+    color: white;  
+}
+
+#logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 600px;
+}
+
+
+nav ul li{
+    display: inline;
+    margin: 10px;
+    font-weight: 800px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-between;
+    cursor: ;
+}
+
+#ul{
+    margin-top: 40px;
+}
+
+/*nav ul li:nav ul li:hover{
+    color: #ED661F;
+}*/
+
