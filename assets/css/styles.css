@@ -1,24 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+
 }
 
-nav{
+html,body {
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+}
+
+nav {
     display: flex !important;
     justify-content: space-around;
     background-color: black;
-    color: white; 
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    color: white;
+   
+
 }
 
-#logo{
+#logo {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 40px;
@@ -27,7 +33,7 @@ nav{
 }
 
 
-nav ul li{
+nav ul li {
     display: inline;
     margin: 10px;
     font-weight: 800px;
@@ -36,19 +42,19 @@ nav ul li{
     justify-content: space-between;
 }
 
-#ul{
+#ul {
     margin-top: 40px;
 }
 
 
 
-#login{
+#login {
     margin-top: 40px;
     margin-left: 60px;
 }
 
 
-nav button{
+nav button {
     margin: 25px;
     background-color: #ED661F;
     width: 120PX;
@@ -58,19 +64,16 @@ nav button{
 }
 
 
-.backimg{
+.backimg {
     background-image: url("../img/image\ 1.png");
     width: 100%;
     background-position: 100% 50%;
     background-size: cover;
     height: 100%;
     align-items: center;
-    margin: 5% 5%;
-    background-color: grey;
-    
 }
 
-.fdiv{
+.fdiv {
     display: flex;
     justify-content: space-between;
     margin: 5%;
@@ -78,11 +81,12 @@ nav button{
 }
 
 
-.fdiv img{
+.fdiv img {
     width: 100%;
 }
 
-.fdiv button{
+
+.fdiv button {
     background-color: #ED661F;
     margin-top: 10%;
     width: 40%;
@@ -94,8 +98,41 @@ nav button{
 }
 
 
-#box{
-    
+.box {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 2px;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 10%;
+    padding: 2.5%;
+    align-items: center;
+    margin-bottom: 10%;
+    font-weight: 800;
+    font-size: 90%;
+}
+
+
+.secdiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+
+#heading{
+    margin-bottom: 7%;
+    margin-left: 5%;
+}
+
+
+
+.secdiv img {
+    width: 100%;
+    height: 100%;
 }
 
 
