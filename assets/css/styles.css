@@ -4,7 +4,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
@@ -12,14 +12,16 @@ nav{
     display: flex !important;
     justify-content: space-around;
     background-color: black;
-    color: white;  
+    color: white; 
+    margin: 40px; 
 }
 
 #logo{
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 50px;
-    font-weight: 600px;
+    font-size: 40px;
+    font-weight: 800px;
+    margin-left: 30px;
 }
 
 
@@ -27,10 +29,9 @@ nav ul li{
     display: inline;
     margin: 10px;
     font-weight: 800px;
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     justify-content: space-between;
-    cursor: ;
 }
 
 #ul{
@@ -40,4 +41,28 @@ nav ul li{
 /*nav ul li:nav ul li:hover{
     color: #ED661F;
 }*/
+
+#login{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+nav button{
+    margin: 25px;
+    background-color: #ED661F;
+    width: 120PX;
+    border-radius: 5PX;
+    font-size: 17PX;
+}
+
+
+.backimg{
+    background-image: url("../img/image\ 1.png");
+    width: 90%;
+    background-position: 100% 50%;
+    background-size: cover;
+    height: 400px;
+    align-items: center;
+    margin: 40px;
+}
 
