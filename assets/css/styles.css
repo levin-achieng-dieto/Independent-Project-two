@@ -290,5 +290,10 @@ li{
 
 #icons i{
     margin-bottom: 20%;
-    margin: 1.5%;
+    margin: 5%;
+    font-size: 30px;
+}
+
+#icons h4{
+    margin-top: 12%;
 }
