@@ -311,3 +311,16 @@ li{
     margin-left: 70%;
     text-shadow: 1px 1px 1px;
 }
+
+#more i{
+    margin-left: 5%;
+    color: #ED661F;
+    font-size: 50px;
+}
+
+.fa-minus{
+    color: #ED661F;
+    font-size: 50px;
+    float: right;
+    margin-right: 25%;
+}
