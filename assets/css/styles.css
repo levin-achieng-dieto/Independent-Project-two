@@ -4,8 +4,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: ;
-
 }
 
 html,body {
@@ -108,8 +106,8 @@ nav button {
     padding: 2.5%;
     align-items: center;
     margin-bottom: 10%;
-    font-weight: 800;
     font-size: 90%;
+    text-shadow: 1px 1px 1px;
 }
 
 
@@ -305,4 +303,11 @@ li{
     text-align: center;
     padding: 5%;
     text-shadow: 1px 1px 1px
+}
+
+#more{
+    font-size: 25px;
+    margin-bottom: 5%;
+    margin-left: 70%;
+    text-shadow: 1px 1px 1px;
 }
