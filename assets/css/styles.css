@@ -201,6 +201,7 @@ nav button {
 
 #fliers{
     margin: 5%;
+    font-size: 40px;
 }
 
 .star{
@@ -220,4 +221,36 @@ nav button {
 .fa-solid{
     color: #ED661F;
     font-size: 130%
+}
+
+.says h3{
+    padding-top: 15%;
+    text-shadow: 1px 1px 2px gray;
+}
+
+.says img{
+    width: 20%;
+    margin-top: 20%;
+}
+
+.fnote{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7%;
+}
+
+.fnote button{
+    margin-top: 5%;
+    font-size: 15px;
+    padding: 1.2%;
+    width: 25%;
+    font-weight: 600;
+}
+    
+
+#sbutton{
+    background-color: #ED661F;
+    color: white;
+    width: 15%;
 }
